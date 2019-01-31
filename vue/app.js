@@ -180,7 +180,7 @@ new Vue({
   methods: { /* Any app-specific functions go here */ 
     initMap() {
       //this.map = L.map('map').setView([38.63, -90.23], 12);
-      this.map = L.map('map').setView([55.75, 37.61], 12);
+      this.map = L.map('map').setView([52.042847, -30.599330], 3);
       this.tileLayer = L.tileLayer(
         'https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png',
         {
