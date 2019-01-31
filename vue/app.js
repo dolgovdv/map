@@ -182,7 +182,8 @@ new Vue({
       //this.map = L.map('map').setView([38.63, -90.23], 12);
       this.map = L.map('map').setView([52.042847, -30.599330], 3);
       this.tileLayer = L.tileLayer(
-        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png',
+        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        //'https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png',
         {
           maxZoom: 18,
           attribution: '&copy; <a href="http://openstreetmap.ru/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>',
